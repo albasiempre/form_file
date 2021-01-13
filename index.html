@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="ja"><!-- 追加記述内容 -->
+
+<head>
+  <meta charset="utf-8" /><!-- 追加記述内容 -->
+  <link rel="stylesheet" href="./styles.css" />
+  <!-- viewportの記述を書く -->
+</head>
+
+<body>
+  <div class="form-wrapper">
+    <div class="container">
+<form>
+        <div class="name">
+        <label for="name">名前:</label>
+        <input type="text" name="name">
+        </div>
+
+        <div class="email">
+         <label for="mail">メールアドレス:</label>
+         <input type="text" name="email">
+        </div>
+
+        <div class="password">
+         <label for="password">パスワード:</label>
+         <input type="text" name="password">
+        </div>
+
+    <div class="sex">
+      <p>性別:</p>
+        <input type="radio" name="sex-group" id="male"><label for="male">男性</label>
+        <input type="radio" name="sex-group" id="female"><label for="female">女性</label>
+    </div>
+
+    <div class="from">
+　　　<p>出身地:</p>
+　     <select name="prefecture">
+        <option value="tokyo">東京都</option>
+        <option value="chiba">千葉県</option>
+        <option value="saitama">埼玉県</option>
+        <option value="kanagawa">神奈川県</option>
+      </select>
+    </div>
+
+    <div class="phone-number">
+
+      <label for="name">電話番号:</label>
+        <input type="text" name="phone-number">
+    </div>
+
+    <div class="self-introduction">
+      <label for="name">自己紹介:</label>
+        <input type="text" name="self-introduction">
+    </div>
+
+    <div class="button">
+      <button type="submit">登録する</button>
+    </div>
+</form>
+    </div>
+  </div>
+</body>
