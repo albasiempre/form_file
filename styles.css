@@ -35,16 +35,31 @@ body {
   border-radius: 30px;
 }
 
-input[type="text"] {
-  padding: .6em 8em;
-  margin-left: 20px;
+input[type="text"]{
+  width: 50%;
+}
+
+input[type="radio"]{
+ display: block;
+}
+
+label {
+  margin-right: 20px;
 }
 
 textarea {
-  padding: .8em 16em;
-  }
+  width: 50%;
+}
 
-.button {
-  color: #EE9595;
-  padding:20px;
+.button-background-color {
+  background-color: hotpink;
+  padding:10px;
+  color: #fff;
+  border-radius: 10px;
+  border: 1px solid hotpink;
+}
+
+.button-background-color:hover{
+  background-color: #2B2D2D;
+  color: #fff;
 }

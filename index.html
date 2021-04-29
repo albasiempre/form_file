@@ -29,13 +29,13 @@
         </div>
 
         <div class="sex wrapper-element">
-          <p>性別:</p>
-            <input type="radio" name="sex-group" id="male"><label for="male">男性</label>
-            <input type="radio" name="sex-group" id="female"><label for="female">女性</label>
+          <label for="gender">性別:</label>
+          <input type="radio" name="sex-group" id="male"><label for="male">男性</label>
+          <input type="radio" name="sex-group" id="female"><label for="female">女性</label>
         </div>
 
         <div class="from wrapper-element">
-          <p>出身地:</p>
+          <label for="prefecture">都道府県:</label>
           <select name="prefecture">
             <option value="tokyo">東京都</option>
             <option value="chiba">千葉県</option>
@@ -51,12 +51,11 @@
 
         <div class="self-introduction wrapper-element">
           <label for="name">自己紹介:</label>
-          <textarea type="text" name="self-introduction">
-          </textarea>
+          <textarea type="text" name="self-introduction"></textarea>
         </div>
 
         <div class="button wrapper-element">
-          <button type="submit">登録する</button>
+          <button class="button-background-color" type="submit">登録する</button>
         </div>
       </form>
     </div>
