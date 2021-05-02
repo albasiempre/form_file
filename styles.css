@@ -39,8 +39,11 @@ input[type="text"]{
   width: 50%;
 }
 
+.sex-options {
+  display: block;
+}
 input[type="radio"]{
- display: block;
+  display: block;
 }
 
 label {
@@ -62,4 +65,14 @@ textarea {
 .button-background-color:hover{
   background-color: #2B2D2D;
   color: #fff;
+  border: 1px solid #2B2D2D;
+}
+
+
+@media (width:768px) {
+
+}
+
+@media (width:1024px) {
+
 }
